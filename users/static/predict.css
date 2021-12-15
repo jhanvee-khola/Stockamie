@@ -1,0 +1,25 @@
+.title{
+    font-family: 'Poppins', sans-serif;
+    font-weight: bold;
+    margin-top: 40px;
+}
+.myDiv {
+    position: relative;
+    box-sizing: border-box;
+    margin: auto;
+    background:white;
+    color:black;
+    padding-bottom:4px;
+  }
+  
+.myDiv:after {
+    content: '';
+    position: absolute;
+    top: 0; right: 0; bottom: 0; left: 0;
+    z-index: -1;
+    margin-bottom: -3px; /* !importanté */
+    background: linear-gradient(0.25turn, #DBE6F6, #C5796D);
+}
+.container{
+    padding-top: 40px;
+}
